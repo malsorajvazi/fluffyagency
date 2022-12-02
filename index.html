@@ -186,21 +186,28 @@
     <footer>
         <div class="contact-us">
             <h2>Contact Us</h2>
-            <div class="contact-us-input">
-                <p>Full Name</p>
-                <input type="text">
-            </div>
-            <div class="contact-us-input">
-                <p>Your Email Address</p>
-                <input type="text">
-            </div>
-            <div class="contact-us-input">
-                <p>Your message </p>
-                <input type="text">
-            </div>
-            <button class="contact-us-button">Submit Your Message</button>
+                <form id="first-form"action="#" autocomplete="off">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter full name here">
+                    <label for="email">Your email</label>
+                    <input type="email" name="" id="email" required="true" placeholder="Enter your email">
+                    <select title="dropdown" name="" id="">
+                        <option value="Select your option" selected disabled>Select your option</option>
+                        <option value="option1">Option1</option>
+                        <option value="optiom2">Option2</option>
+                    </select>
+                    <label for="password">Your password</label>
+                    <input type="password" name="" id="password" required minlength="8" placeholder="Enter your password">
+                    <label for="checkbox" >
+                        <input type="checkbox" value="sui" >
+                        Agree to terms and conditions
+                    </label>
+                    <input id="submit-button" type="submit" value="Submit"> 
+                    
+                </form>
+            
         </div>
-        <div class="last-paragraph">
+        <div class="copyright">
             <p>Copyright © 2018 LastDoor.Store</p>
         </div>
     </footer>
