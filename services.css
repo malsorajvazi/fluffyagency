@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'AvenirNext';
+    src: url(fonts/AvenirNextLTPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'AvenirNextBold';
+    src: url(fonts/AvenirNextLTPro-Bold.ttf);
+}
+
+
+
+h1 h2 h3 h4 {
+    font-family: AvenirNext;
+    font-weight: bolder;
+}
+
+body {
+    padding-top:40px;
+    background-color: #F4F6F7;
+    font-family: AvenirNext;
+    margin-bottom: 0px;
+   
+}
+
+.container {
+    width: 1095px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 154px;
+}
+
+.links a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: #13253A;
+}
+
+
+.links a:hover {
+    color: #FF7F57;
+}
+
+
+.our-services {
+    background-color: white;
+    padding-top:119px;
+}
+
+.our-services-text {
+    text-align: center;
+}
+
+.our-services-text p {
+    color: #2557AB;
+    font-size: 16px;
+}
+
+.our-services-text h2 {
+    color: #13253A;
+    font-size: 38px;
+    font-weight: lighter;
+}
+
+.our-services-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 0 135px 0 135px;
+    margin-bottom: 100px;
+}
+
+.our-services-cards-first {
+    justify-self: center;
+    text-align: center;
+    margin: 15px;
+} 
+
+.our-services-kpi {
+    background-color: #F4F6F7;
+    display: flex;
+    justify-content: space-around;
+    padding:60px 200px 82px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.our-services-kpi-content {
+    justify-self: center;
+    text-align: center;
+}
+.our-services-kpi h1 {
+    font-weight: lighter;
+}
+.our-services-kpi p {
+    color: #2557AB;
+    font-size: 16px;
+}
+
+.our-services-kpi-paragraph {
+    margin-top: 6px;
+}

@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'AvenirNext';
+    src: url(fonts/AvenirNextLTPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'AvenirNextBold';
+    src: url(fonts/AvenirNextLTPro-Bold.ttf);
+}
+
+
+
+h1 h2 h3 h4 {
+    font-family: AvenirNext;
+    font-weight: bolder;
+}
+
+body {
+    padding-top:40px;
+    background-color: #F4F6F7;
+    font-family: AvenirNext;
+    margin-bottom: 150px;
+   
+}
+
+.container {
+    width: 1095px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 154px;
+}
+
+.links a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: #13253A;
+}
+
+.links a:hover {
+    color: #FF7F57;
+}
+
+
+
+
+#blue-button {
+    font-size: 17px;
+    color: white;
+    background-color: #2557AB;
+    width: 336px;
+    height: 60px;
+    border: 1px #2557AB solid;
+    border-radius: 3px;
+    box-shadow: 0px 20px rgba(17, 17, 17, 0.185);
+    
+}
+
+#blue-button:hover {
+    color: #2557AB;
+    background-color: white;
+    cursor: pointer;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    align-content: center;
+    align-items: center;
+    background-color: #11364E;
+    margin-top: -20px;
+    padding-top: 140px;
+    padding-bottom: 187px;
+    font-weight: light;
+}
+
+
+input {
+    color: white;
+    background-color: #11364E;
+    border: #11364E;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.288);
+    margin-bottom: 30px;
+}
+
+input:focus {
+    outline: none;
+    
+}
+
+#submit-button {
+    margin-top: 36px;
+    color: white;
+    background-color: #FF7F57;
+    border: solid 1px #FF7F57;
+    width: 336px;
+    height: 60px;
+    font-size: 17px;
+    border-radius: 3px;
+    box-shadow: 10px 0px rgba(17, 17, 17, 0.11);
+}
+
+#submit-button:hover {
+        cursor: pointer;
+        color: #FF7F57;
+        background-color: #fff;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #DCE2E6;
+    background-color: #13253A;
+    font-size: 12px;
+    padding-top: 17px;
+}
+
+
+select {
+    font-size: 16px;
+    color: white ;
+    background-color: #11364E;
+    border: #11364E;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.288);
+    width: 371px;
+    margin-bottom: 30px;
+}
+
+select:focus {
+    outline: none;
+}
